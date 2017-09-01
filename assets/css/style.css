@@ -1,0 +1,26 @@
+.jumbotron {
+  background-color: #fff;
+}
+
+.question {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.nav-stacked {
+  /*margin-top: 50px;*/
+}
+
+.cover {
+  height: auto;
+  width: 100%;
+}
+
+.gif {
+  margin: 20px 0;
+}
+
+.sub-title {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}

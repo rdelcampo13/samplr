@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Samplify</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 text-center">
+          <div class="jumbotron">
+            <h1>Samplr</h1>
+            <hr>
+            <div class="row" id="start">
+              <div class="col-md-6 col-md-offset-3">
+                <h3>Press start to begin!</h3>
+                <p class="sub-title">(Make sure to turn up your volume)</p>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg btn-block start">Start</button>
+              </div>
+            </div>
+
+            <div class="row hide" id="game">
+              <h3 class="time">Time remaining: <span id="seconds">5</span> seconds</h3>
+              <h3 class="question" id="question"></h3>
+              <div class="col-xs-3 col-md-3">
+                  <img src="" class="cover" id="cover">
+              </div>
+              <div class="col-xs-9 col-md-9">
+                <button type="button" data-option="a" class="btn btn-default btn-md btn-block options">A: <span id="option1"></span></button>
+                <button type="button" data-option="b" class="btn btn-default btn-md btn-block options">B: <span id="option2"></span></button>
+                <button type="button" data-option="c" class="btn btn-default btn-md btn-block options">C: <span id="option3"></span></button>
+                <button type="button" data-option="d" class="btn btn-default btn-md btn-block options">D: <span id="option4"></span></button>
+              </div>
+            </div>
+
+            <div class="row hide" id="result">
+              <h2 id="result-header"></h2>
+              <h3 id="result-message"></h3>
+              <img src="" class="gif" id="gif">
+            </div>
+
+            <div class="row hide" id="gameover">
+              <h3 id="message">Nice job, heres's how you did!</h3>
+              <p>Correct Answers: <span id="correct"></span></p>
+              <p>Incorrect Answers: <span id="incorrect"></span></p>
+              <p>Unanswered: <span id="unanswered"></span></p>
+              <div class="col-md-6 col-md-offset-3">
+                <button type="button" class="btn btn-primary btn-lg btn-block start">Restart</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/app2.js"></script>
+  </body>
+</html>

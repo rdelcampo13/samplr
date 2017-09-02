@@ -43,3 +43,26 @@ body{
   height: auto;
   z-index: -1;
 }
+
+.btn-default:target,
+.btn-default:focus,
+.btn-default:hover ,
+.btn-default:active {
+  color: #fff;
+  background-color: #3fb295;
+  border-color: #3fb295;
+}
+
+.btn-primary {
+  border-color: #3fb295;
+  background-color: #3fb295;
+}
+
+.btn-primary:target,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+  border-color: #318c75;
+  background-color: #318c75;
+}
+
